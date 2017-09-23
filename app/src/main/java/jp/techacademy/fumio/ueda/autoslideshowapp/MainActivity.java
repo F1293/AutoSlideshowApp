@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     switch (kirikae) {
                         case 1:
-                        mStartButton.setText("STOP");
+                        mStartButton.setText("停止");
                             mNextButton.setEnabled(false);
                             mPreviousButton.setEnabled(false);
                         kirikae = 2;
