@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
                         }, 2000, 2000);
                             break;
                         case  2:
-                            mStartButton.setText("START");
+                            mStartButton.setText("再生");
                             mNextButton.setEnabled(true);
                             mPreviousButton.setEnabled(true);
                             mTimer.cancel();
